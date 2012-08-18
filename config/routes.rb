@@ -1,4 +1,4 @@
-Blog::Application.routes.draw do
+Deploy::Application.routes.draw do
   resources :articles
 
   # The priority is based upon order of creation:
