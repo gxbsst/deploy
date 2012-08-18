@@ -37,3 +37,10 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 gem 'activerecord-postgresql-adapter'
+
+# Use unicorn as the app server
+gem 'unicorn'
+
+# Deploy with Capistrano
+gem 'capistrano'
+
