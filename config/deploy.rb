@@ -1,6 +1,6 @@
 require "bundler/capistrano"
 
-server "127.0.0.1", :web, :app, :db, primary: true
+server "127.0.0.1:2200", :web, :app, :db, primary: true
 
 set :application, "deploy"
 set :user, "vagrant"
