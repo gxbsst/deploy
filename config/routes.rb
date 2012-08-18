@@ -1,4 +1,6 @@
 Deploy::Application.routes.draw do
+  resources :news
+
   resources :articles
 
   # The priority is based upon order of creation:
